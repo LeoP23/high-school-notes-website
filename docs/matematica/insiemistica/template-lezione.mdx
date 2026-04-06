@@ -1,0 +1,47 @@
+---
+title: "Titolo della Lezione"
+description: "Breve riassunto per i motori di ricerca e l'anteprima."
+slug: /materia/anno/argomento  # Es: /fisica/primo-anno/vettori
+sidebar_position: 1
+
+# === ETICHETTE PERSONALIZZATE ===
+materia: materia       # o matematica
+anno: 1                # Da 1 a 5
+tipo: lezione          # lezione, esercizio, simulazione
+---
+
+import Quiz from '@site/src/components/Quiz';
+
+# Titolo
+
+:::goal
+
+:::
+
+## L'Intuizione Centrale
+> Inizia sempre con una domanda o un problema reale. 
+> Evita di partire subito con le definizioni formali.
+
+{/* Inserisci qui eventuali simulazioni o immagini */}
+
+---
+
+## Approfondimento Teorico
+Qui puoi usare il LaTeX per le formule:
+$$F = m \cdot a$$
+
+---
+
+## Verifica le tue intuizioni
+Usa il quiz per consolidare quanto appreso.
+
+<Quiz 
+  questions={[
+    {
+      question: "Domanda stimolante per lo studente?",
+      options: ["Opzione A", "Opzione B", "Opzione C"],
+      correctAnswer: 0,
+      explanation: "Spiega perché questa è la risposta corretta per rinforzare l'apprendimento."
+    }
+  ]} 
+/>

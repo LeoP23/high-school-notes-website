@@ -4,9 +4,11 @@
   /* 1. MAPPING YOUR PALETTE TO SEMANTIC TOKENS */
   --brand-primary: #1b6ae4;    /* Sapphire Sky */
   --brand-secondary: #ece8ef;  /* Lavender Mist */
+  --brand-third: #dd1c1a;      /* Primary Scarlet */
+  --brand-fourth: #679436;     /* Sage Green */
   --brand-accent: #ffba08;     /* Amber Flame */
-  --brand-math: #dd1c1a;       /* Primary Scarlet */
-  --brand-physics: #679436;    /* Sage Green */
+  --brand-math: #1b6ae4;
+  --brand-physics: #1b6ae4;
 
   /* 2. DOCUSAURUS SYSTEM OVERRIDES */
   --ifm-color-primary: var(--brand-primary);
@@ -25,8 +27,10 @@
   /* Shift colors for better contrast on dark backgrounds */
   --brand-primary: #478cf5; 
   --brand-secondary: #24222a; /* Deepened Lavender */
-  --brand-math: #f24b49;
-  --brand-physics: #7eb346;
+  --brand-third: #f24b49;
+  --brand-fourth: #7eb346;
+  --brand-math: #478cf5; 
+  --brand-physics: #478cf5;
 
   --ifm-background-color: #121212;
   --surface-hero-bg: var(--brand-secondary);

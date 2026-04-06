@@ -6,7 +6,7 @@ import Link from '@docusaurus/Link';
 const macroAreas = [
   { title: 'Algebra', icon: '🧮', link: '/docs/matematica/algebra', desc: 'Polinomi, equazioni, disequazioni e sistemi.' },
   { title: 'Geometria', icon: '📐', link: '/docs/matematica/geometria', desc: 'Geometria euclidea, analitica e trigonometria.' },
-  { title: 'Insiemi', icon: '⭕', link: '/docs/matematica/insiemi', desc: 'Teoria degli insiemi e fondamenti.' },
+  { title: 'Insiemi', icon: '⭕', link: '/docs/matematica/insiemistica', desc: 'Teoria degli insiemi e fondamenti.' },
   { title: 'Logica', icon: '🧠', link: '/docs/matematica/logica', desc: 'Proposizioni, connettivi e dimostrazioni.' },
   { title: 'Analisi', icon: '📈', link: '/docs/matematica/analisi', desc: 'Limiti, derivate, integrali e studio di funzione.' }
 ];
